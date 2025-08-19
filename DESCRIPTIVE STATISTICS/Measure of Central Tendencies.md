@@ -15,9 +15,9 @@ The formula for mean (average) differs slightly between population and sample da
 
 - **Population Mean (\(\mu\))**
 
-$
+$$
 \mu = \frac{\sum_{i=1}^{N} x_i}{N}
-$
+$$
 
 Here, \(x_i\) represents the data points in the population, and \(N\) is the population size.
 
@@ -102,17 +102,17 @@ The **mode** is the most frequently occurring value in the dataset.
 Consider the dataset: \(4, 3, 2, 1, 1, 4, 4, 5, 2, 100\).
 
 Frequencies:
-- \(1 \rightarrow 2\) times  
-- \(2 \rightarrow 2\) times  
-- \(3 \rightarrow 1\) time  
-- \(4 \rightarrow 3\) times  
-- \(5 \rightarrow 1\) time  
-- \(100 \rightarrow 1\) time  
+- $$\(1 \rightarrow 2\)$$ times  
+- $$\(2 \rightarrow 2\)$$ times  
+- $$\(3 \rightarrow 1\)$$ time  
+- $$\(4 \rightarrow 3\)$$ times  
+- $$\(5 \rightarrow 1\)$$ time  
+- $$\(100 \rightarrow 1\)$$ time  
 
 Therefore,
 
 $$
-\operatorname{mode} = 4
+\{mode} = 4
 $$
 
 Note: The mode is useful for **categorical data** and is **resistant to outliers**.
@@ -138,3 +138,4 @@ These concepts will be revisited in future topics, including the **measure of di
 
 This file uses inline math with `$...$` and display math with `$$...$$`.  
 It renders correctly on GitHub, Jupyter, Obsidian, and most Markdown engines that support LaTeX/KaTeX.
+
